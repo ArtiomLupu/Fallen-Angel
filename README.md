@@ -1,77 +1,46 @@
+[![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/) [![GitHub contributors](https://img.shields.io/github/contributors/fsystem88/dos-attack.svg)](https://GitHub.com/fsystem88/dos-attack/graphs/contributors/) ![repo-size](https://img.shields.io/github/repo-size/fsystem88/dos-attack)
 
+# DoS attack
+<img src="https://raw.githubusercontent.com/FSystem88/dos-attack/master/logo.png" width="50%"><br>
+The program uses a simple type of DDoS attack "HTTP flood" using multithreading and bots (proxy servers). The program was created for informational purposes!<br>
+Программа использует простой тип DDoS-атаки "HTTP flood" с использованием многопоточности и ботов (прокси-серверов). Программа была создана в информационных целях!<br>
 
-## AVAILABLE ON :
+# Обязательно подпишитесь на канал в телеграме, там может решаться дальнейшая судьба проекта или очень важная информация!!!
+<br><b>---> <a href="https://t.me/FS88ch">Канал в Telegram</a> <---</b><br>
 
-* Termux
+# Установка
+1. <code>apt update && apt upgrade -y</code>
+2. <code>apt install git python -y</code> и согласиться: введя Y и нажав Enter
+3. <code>python -m pip install requests colorama click fake_headers</code>
+4. <code>git clone https://github.com/FSystem88/dos-attack</code>
+5. <code>cd dos-attack</code>
 
-### TESTED ON :
+# Запуск
+    python3 ddos.py --help
+    Usage: ddos.py [OPTIONS]
 
-* Termux
+    Options:
+      -p, --proxy TEXT  File with a proxy
+      -u, --url TEXT    URL
+      --help            Show this message and exit.
+      
+Либо просто:
 
-### REQUIREMENTS :
-* internet
-* php
-* storage 400 MB
-* ngrok Token
+    python3 ddos.py
 
-## FEATURES :
-* [+] Instagram stable api !
-* [+] Updated maintainence !
-* [+] tor usage !
-* [+] Easy for Beginners !
+# For Windows
+Просто скачать и заупстить EXE:<br>
+https://fsystem88.ru/programs/DDOS.exe
 
-## INSTALLATION [Termux] :
+# Обновить
+<code>cd ~/dos-attack/ && git pull</code>
 
-* `apt-get update -y`
-* `apt-get upgrade -y`
-* `pkg install python -y`
-* `pkg install python2 -y`
-* `pkg install git -y`
-* `pip install lolcat`
-* `git clone https://github.com/noob-hackers/ighack`
-* `cd $HOME`
-* `ls`
-* `cd ighack`
-* `ls`
-* `bash setup`
-* `bash ighack.sh`
-```
-[+]--Now you need internet connection to continue further process...
-
-[+]--You can select any option by clicking on your keyboard
-
-[+]--Note:- Don't delete any of the scripts included in core files
-
-[+]--new session and start TOR (tor) before starting the attack
-```
-## USAGE OPTIONS [Termux] :
-
-__AUTO ATTACK__ :
-- From this option you can start attack aon default pass list of tool.
-
-__MANUAL ATTACK__ :
-- From this option you can select manual pass list and try to attack.
-
-__ABOUT__ :
-- From this option you can know more about author.
-
-__UPDATE__ :
-- From this option you can update ighack tool if updates are available for that.
-
-__EXIT__ :
-- From this option you can exit from tool 
-
-## SCREEN SHOTS [Termux]
-
+# Приму в дар деньги на пиво! :))
+<i>в любой валюте))</i><br>
+<b>Донатерная!</b><br>
+<b>1. PAYPAL:</b> https://paypal.me/FSystem88<br>
+<b>2. QIWI:</b> https://qiwi.com/n/FSYSTEM88<br>
+<b>3. YANDEX MONEY:</b> https://money.yandex.ru/to/410015440700904<br>
 <br>
-<p align="center">
-<img width="50%" src="https://user-images.githubusercontent.com/49580304/96563949-6b90ec00-1277-11eb-9c1b-221a31d7c79d.jpg"/>
-<img width="45%" src="https://user-images.githubusercontent.com/49580304/96563953-6c298280-1277-11eb-9cf2-828b351168ae.jpg"/>
-</p>
-
-#
-## PLEASE BUY ME A COFFEE OR BEER : 4149 4991 4453 6586 
-
-
-## WARNING : 
-***This tool is only for educational purpose. If you use this tool for other purposes except education we will not be responsible in such cases.***
+<i>Free programmers also need to eat :)</i>
+<br>
